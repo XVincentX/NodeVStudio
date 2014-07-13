@@ -1,0 +1,22 @@
+{
+  "name": "NodeVStudioDemo",
+  "version": "1.0.0",
+  "description": "NodeVStudioDemo",
+  "main": "index.html",
+  "authors": [
+    "V.Chianese"
+  ],
+  "license": "Personal",
+  "homepage": "http://nodevstudiodemo.appharbor.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.17"
+  }
+}
