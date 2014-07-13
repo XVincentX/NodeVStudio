@@ -63,6 +63,9 @@
     <Content Include="gulpfile.js" />
     <Content Include="package.json" />
     <Content Include="tsd.json" />
+    <None Include=".bin\git.cmd" />
+    <Content Include="packages.config" />
+    <None Include=".bin\node.cmd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
