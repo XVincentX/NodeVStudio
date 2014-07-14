@@ -2,6 +2,9 @@
   "name": "NodeVStudioDemo",
   "version": "1.0.0",
   "description": "NodeVStudioDemo",
+    "bin": {
+    "git": "./tools/git/git.exe"
+  },
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
