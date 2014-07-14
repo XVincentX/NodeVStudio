@@ -152,6 +152,7 @@
     <Exec Command=".\tools\DelFolder .\node_modules" />
   </Target>
   <Target Name="BeforeBuild">
+    <Exec Command="set GIT_TRACE=1" />
     <Exec Command="npm install" />
     <Exec Command="node_modules\.bin\tsd reinstall" />
     <Exec Command="node_modules\.bin\bower install --config.interactive=false" />
