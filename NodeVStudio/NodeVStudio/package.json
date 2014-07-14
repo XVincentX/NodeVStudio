@@ -1,29 +1,26 @@
 {
-  "name": "NodeVStudioDemo",
-  "version": "1.0.0",
-  "description": "NodeVStudioDemo",
-    "bin": {
-    "git": "./tools/git/git.exe"
-  },
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "V.Chianese",
-  "license": "ISC",
-  "dependencies": {
-    "bower": "^1.3.5",
-    "tsd": "^0.5.7"
-  },
-  "devDependencies": {
-    "event-stream": "^3.1.5",
-    "gulp": "^3.8.2",
-    "gulp-angular-filesort": "^0.1.1",
-    "gulp-angular-htmlify": "^0.2.0",
-    "gulp-angular-templatecache": "^1.2.1",
-    "gulp-inject": "^0.4.1",
-    "gulp-minify-html": "^0.1.3",
-    "karma": "^0.12.16",
-    "npm-check-updates": "^1.2.0"
-  }
+    "name": "NodeVStudioDemo",
+    "version": "1.0.0",
+    "description": "NodeVStudioDemo",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "V.Chianese",
+    "license": "ISC",
+    "dependencies": {
+        "bower": "^1.3.5",
+        "tsd": "^0.5.7"
+    },
+    "devDependencies": {
+        "event-stream": "^3.1.5",
+        "gulp": "^3.8.2",
+        "gulp-angular-filesort": "^0.1.1",
+        "gulp-angular-htmlify": "^0.2.0",
+        "gulp-angular-templatecache": "^1.2.1",
+        "gulp-inject": "^0.4.1",
+        "gulp-minify-html": "^0.1.3",
+        "karma": "^0.12.16",
+        "npm-check-updates": "^1.2.0"
+    }
 }
