@@ -122,7 +122,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>1865</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
@@ -152,7 +152,7 @@
     <Exec Command=".\tools\DelFolder .\node_modules" />
   </Target>
   <Target Name="BeforeBuild">
-    <Exec Command='git config url."https://".insteadOf git://' />
+    <Exec Command="git config url.&quot;https://&quot;.insteadOf git://" />
     <Exec Command="npm install" />
     <Exec Command="node_modules\.bin\tsd reinstall" />
     <Exec Command="node_modules\.bin\bower install --config.interactive=false" />
